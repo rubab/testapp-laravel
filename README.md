@@ -7,9 +7,11 @@ update .env variables to set up project.
 
 ## Run following commands
 To setup sqlite DB 
-DB_DATABASE_TEMP=give absolute path of database file in .env file
-for migrations run command, php artisan migrate --database=sqlite
 
-To update MySQL DB: php artisan migrate
+`DB_DATABASE_TEMP=`give absolute path of database file in .env file
 
-To run jobs in background: php artisan queue:work
+for migrations run command, `php artisan migrate --database=sqlite`
+
+To update MySQL DB: `php artisan migrate`
+
+To run jobs in background: `php artisan queue:work`
